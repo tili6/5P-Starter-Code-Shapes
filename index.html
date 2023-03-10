@@ -1,0 +1,52 @@
+<!DOCTYPE html> <html><head>
+        <title>5.P Starter Code Shapes</title>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&amp;display=swap" rel="stylesheet">
+    <style>body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #11f5f1;
+    text-align: center;
+}
+
+img {
+    width: 400px;
+}</style></head>
+    <body>
+        <div class="title">
+            <h1>Whats your shape</h1>
+        </div>
+        <div class="questions">
+            <h4>Favorite angle measure?0-180</h4>
+            <img src="https://www.englishclub.com/images/kids/shapes-615.png">
+            
+                <br>
+                
+               <input class="answer">
+            
+            <h4>Straight line or curved lines?</h4>
+            <img src="https://www.purchase.edu/live/image/gid/186/width/1260/crop/1/src_region/17,95,377,455/14788_Lets_Learn_About_Lines_Activity_Games-image.jpg">
+        </div>
+    
+       <input class="answer1">
+        <div class="result">
+
+            this is where the user will see their quiz result!
+        </div>
+<button>yay</button>
+
+
+    
+<script>
+/*__POPCODESTART__*/
+var button = document.querySelector("button");
+
+button.onclick = function () {
+  var answer = Number(document.querySelector(".answer").value);
+  var answer1 = document.querySelector(".answer1").value;
+  console.log(answer);
+  console.log(answer1);
+
+  if (answer > 0 || answer > 90) {
+    console.log("yay");
+  }
+};
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBvcGNvZGVQcmV2aWV3LmpzIl0sIm5hbWVzIjpbImJ1dHRvbiIsImRvY3VtZW50IiwicXVlcnlTZWxlY3RvciIsIm9uY2xpY2siLCJhbnN3ZXIiLCJOdW1iZXIiLCJ2YWx1ZSIsImFuc3dlcjEiLCJjb25zb2xlIiwibG9nIl0sIm1hcHBpbmdzIjoiQUFDQSxJQUFJQSxNQUFNLEdBQUdDLFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixRQUF2QixDQUFiOztBQUVBRixNQUFNLENBQUNHLE9BQVAsR0FBaUIsWUFBVztBQUN4QixNQUFJQyxNQUFNLEdBQUdDLE1BQU0sQ0FBQ0osUUFBUSxDQUFDQyxhQUFULENBQXVCLFNBQXZCLEVBQWtDSSxLQUFuQyxDQUFuQjtBQUNKLE1BQUlDLE9BQU8sR0FBR04sUUFBUSxDQUFDQyxhQUFULENBQXVCLFVBQXZCLEVBQW1DSSxLQUFqRDtBQUNJRSxFQUFBQSxPQUFPLENBQUNDLEdBQVIsQ0FBWUwsTUFBWjtBQUNBSSxFQUFBQSxPQUFPLENBQUNDLEdBQVIsQ0FBWUYsT0FBWjs7QUFDQSxNQUFJSCxNQUFNLEdBQUcsQ0FBVCxJQUFjQSxNQUFNLEdBQUUsRUFBMUIsRUFBNkI7QUFBQ0ksSUFBQUEsT0FBTyxDQUFDQyxHQUFSLENBQVksS0FBWjtBQUM3QjtBQUVKLENBUkQiLCJzb3VyY2VzQ29udGVudCI6WyJcbmxldCBidXR0b24gPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKFwiYnV0dG9uXCIpO1xuXG5idXR0b24ub25jbGljayA9IGZ1bmN0aW9uKCkge1xuICAgIGxldCBhbnN3ZXIgPSBOdW1iZXIoZG9jdW1lbnQucXVlcnlTZWxlY3RvcihcIi5hbnN3ZXJcIikudmFsdWUpO1xubGV0IGFuc3dlcjEgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKFwiLmFuc3dlcjFcIikudmFsdWU7XG4gICAgY29uc29sZS5sb2coYW5zd2VyKTsgXG4gICAgY29uc29sZS5sb2coYW5zd2VyMSk7XG4gICAgaWYgKGFuc3dlciA+IDAgfHwgYW5zd2VyID45MCl7Y29uc29sZS5sb2coXCJ5YXlcIik7XG4gICAgfVxuICAgIFxufTtcbiJdfQ==</script></body></html>
